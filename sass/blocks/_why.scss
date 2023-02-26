@@ -1,0 +1,113 @@
+.why {
+    background: url("../img/7-why/heart-right.png") left calc(50% + 473px) top 132px no-repeat,url("../img/7-why/bg.jpg") center center/cover no-repeat;
+    padding: 169px 0 115px 0;
+    position: relative;
+    &__title {
+        max-width: 777px;
+        span {
+            background: #9D1FFE;
+            color: #fff;
+        }
+    }
+    &__upper-left {
+        position: absolute;
+        left: 90px;
+        top: -71px;
+        width: 128px;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        max-width: 617px;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+    }
+    &__slider {
+        margin: 36px auto 0 auto;
+        .splide__slide {
+            max-width: 631px;
+            height: 353px;
+            background: #FFFFFF;
+            border-radius: 20px;
+            padding: 95px 19px 39px 42px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            .text {
+                font-size: 18px;
+            }
+            .name {
+                display: flex;
+                gap: 17px;
+                align-items: center;
+                span {
+                    font-family: 'Averta Demo PE';
+                    font-size: 20px;
+                }
+            }
+            &::before {
+                content: url('../img/4-founder/left-mark.svg');
+                position: absolute;
+                left: 49px;
+                top: 40px;
+            }
+            &::after {
+                content: url('../img/4-founder/right-mark.svg');
+                position: absolute;
+                right: 31px;
+                bottom: 48px;
+            }
+        }
+        .splide__arrows {
+            width: 137px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            right: 12px;
+            top: -50px;
+        }
+        .splide__arrow--prev {
+            position: initial;
+        }
+        .splide__arrow--next {
+            position: initial;
+        }
+        .splide__arrow {
+            opacity: 1;
+            &:disabled {
+                opacity: 0.3;
+            }
+            img {
+                transition: 0.3s all;
+            }
+            &:hover {
+                img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    &__block {
+        margin-top: 68px;
+        background: #9D1FFE;
+        border-radius: 20px;
+        padding: 29px 88px 29px 467px;
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        span {
+            color: #FAB319;
+        }
+        img {
+            position: absolute;
+            right: 42px;
+            top: -24px;
+        }
+    }
+    &__girl {
+        position: absolute;
+        bottom: 0;
+        right: calc(50% + 208px);
+    }
+}

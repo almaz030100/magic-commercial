@@ -1,0 +1,50 @@
+.promo {
+    padding: 71px 0 143px 0;
+    background: url('../img/2-promo/bg.jpg') center center / cover no-repeat;
+    position: relative;
+    &__title {
+        max-width: 924px;
+        font-family: 'Comicsman One';
+        font-size: 40px;
+        line-height: 1.5;
+        span {
+            background: #9D1FFE;
+            border-radius: 20px;
+            color: #fff;
+            padding: 4px 8px;
+        }
+    }
+    &__subtitle {
+        max-width: 758px;
+        margin-top: 18px;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+    }
+    &__advantages {
+        margin-top: 27px;
+        .splide__list {
+            flex-direction: column;
+            gap: 20px;
+        }
+        &-item {
+            max-width: 564px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            span {
+                font-size: 17px;
+            }
+        }
+    }
+    .block-button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -71px;
+        z-index: 1;
+    }
+    .splide.is-initialized:not(.is-active) .splide__list {
+        display: flex;
+    }
+}

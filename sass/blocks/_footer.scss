@@ -1,0 +1,69 @@
+.footer {
+    background: #9D1FFE;
+    color: #fff;
+    padding: 121px 0 73px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__company {
+        max-width: 284px;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        strong {
+            font-family: 'Averta Demo PE';
+            font-weight: 800;
+            font-size: 16px;
+        }
+        span {
+            font-size: 16px;
+        }
+        address {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        max-width: 316px;
+        &-policy {
+            display: flex;
+            gap: 25px;
+            margin-top: 15px;
+            a {
+                font-size: 16px;
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__call {
+        max-width: 262px;
+        display: flex;
+        flex-direction: column;
+        gap: 57px;
+        align-items: end;
+        .call__phone-ellipse {
+            path {
+                fill: #FAB319;
+            }
+        }
+        .call__order-link {
+            color: #fff;
+        }
+        &-f5 {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 16px;
+        }
+    }
+}

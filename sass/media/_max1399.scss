@@ -1,0 +1,151 @@
+@media (max-width: 1399px) {
+    
+    .info__upper-right {
+        right: -74px;
+    }
+    .info {
+        background: url("../img/3-info/rainbow.png") left calc(50% + 409px) top 135px no-repeat,url("../img/3-info/bg-line.png") left 50% bottom 37px no-repeat,url("../img/3-info/bg.jpg") center center/cover no-repeat;
+    }
+    .info__advantages-title {
+        font-size: 22px;
+    }
+    .info__advantages-text {
+        font-size: 16px;
+    }
+    .info__advantages-text ul {
+        max-width: 248px;
+    }
+    .info__descr {
+        left: calc(50% - 272px);
+        bottom: 103px;
+    }
+    .info__boy {
+        bottom: -29px;
+    }
+
+
+    .founder__upper-left-bg {
+        top: -60px;
+    }
+    .founder__years {
+        column-gap: 134px;
+    }
+    .founder {
+        background: url("../img/4-founder/line-years.png") left calc(50% - 3px) top 313px / 1693px no-repeat,url("../img/4-founder/bg.jpg") center center/cover no-repeat,#f8f5fb;
+    }
+    .founder__interview p {
+        font-size: 16px;
+    }
+    .founder__join .block-button {
+        gap: 20px;
+        max-width: 692px;
+    }
+    .founder__join-text {
+        max-width: 414px;
+    }
+
+
+    .market__upper-left {
+        left: -100px;
+    }
+    .market__advantages-item {
+        max-width: 360px;
+    }
+    .market__advantages-item img {
+        object-fit: cover;
+    }
+    .market__boy {
+        right: calc(50% + 266px);
+    }
+    .market__descr_left {
+        padding: 28px 36px 25px 256px;
+    }
+
+
+
+    .program__images img {
+        max-width: 367px;
+    }
+
+
+    .why__upper-left {
+        left: 11px;
+    }
+    .why__slider .splide__slide {
+        height: 384px;
+    }
+    .why__girl {
+        right: calc(50% + 118px);
+    }
+
+
+    .partner__item {
+        max-width: 365px;
+    }
+    .partner__item-ul {
+        padding: 46px 30px 43px 30px;
+    }
+    .partner {
+        background: url("../img/8-partner/bg-room.png") right -279px bottom no-repeat,url("../img/8-partner/bg.jpg") center center/cover no-repeat;
+    }
+
+
+    .center__wrapper {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 70px;
+    }
+    .center__column ul::after {
+        top: -65px;
+        height: calc(100% + 27px);
+    }
+    .center__column_purple ul::after {
+        height: calc(100% - -3px);
+    }
+    .center__block {
+        max-width: 535px;
+        padding: 30px 18px 30px 19px;
+        bottom: -14px;
+    }
+
+
+    .profit__structure {
+        flex-shrink: 0;
+        padding: 31px 30px 35px 30px;
+        max-width: 520px;
+    }
+    // .profit__diagram {
+    //     padding: 25px 1px 25px 384px;
+    // }
+    // .profit__diagram-main {
+    //     left: 2px;
+    // }
+    .profit .calc {
+        max-width: 600px;
+    }
+    .profit .block-button {
+        max-width: 495px;
+    }
+
+
+    .business__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+
+
+    .model__gradient-bg {
+        left: -300px;
+    }
+    .model__stars-bg {
+        right: -86px;
+        top: -166px;
+    }
+    .model {
+        background: url("../img/12-model/bg.jpg") center right -213px/auto 100% no-repeat,#f4f4f3;
+    }
+    .thanks__founder {
+        left: calc(50% + 177px);
+    }
+
+}

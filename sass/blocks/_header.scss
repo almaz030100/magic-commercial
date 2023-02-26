@@ -1,0 +1,17 @@
+.header {
+    padding: 27px 0 13px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 52px;
+        span {
+            max-width: 426px;
+            font-size: 16px;
+        }
+    }
+}

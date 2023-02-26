@@ -1,0 +1,72 @@
+.model {
+    padding: 71px 0 105px 0;
+    background: url('../img/12-model/bg.jpg') center center / auto 100% no-repeat, #F4F4F3;
+    position: relative;
+    &__gradient-bg {
+        position: absolute;
+        left: -150px;
+        top: -746px;
+    }
+    &__stars-bg {
+        position: absolute;
+        right: 0;
+        top: -186px;
+    }
+    &__title {
+        max-width: 860px;
+        span {
+            background: #9D1FFE;
+            color: #fff;
+        }
+    }
+    &__subtitle {
+        max-width: 433px;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    &__descr {
+        margin-top: 33px;
+        max-width: 395px;
+        font-size: 17px;
+    }
+    ul {
+        margin-top: 16px;
+        max-width: 433px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style-type: none;
+        padding: 0;
+        font-size: 18px;
+        li {
+            padding-left: 30px;
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                background: #FAB319;
+                position: absolute;
+                left: 0;
+                top: 3px;
+            }
+        }
+    }
+    .block-button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -77px;
+        height: 166px;
+        span {
+            max-width: 400px;
+        }
+        .button {
+            max-width: 326px;
+        }
+    }
+}

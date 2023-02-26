@@ -1,0 +1,64 @@
+.business {
+    padding: 95px 0 47px 0;
+    background: #F8F5FB;
+    position: relative;
+    &__title {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 889px;
+        span {
+            background: #9D1FFE;
+            color: #fff;
+        }
+    }
+    &__subtitle {
+        margin: 36px auto 0 auto;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+        text-align: center;
+        max-width: 747px;
+    }
+    &__rainbow-bg {
+        position: absolute;
+        top: 133px;
+        right: calc(50% + 600px);
+    }
+    &__wrapper {
+        margin-top: 25px;
+        display: flex;
+        column-gap: 100px;
+        justify-content: center;
+    }
+    &__item {
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        align-items: center;
+        &-title {
+            font-family: 'Averta Demo PE';
+            font-size: 26px;
+            text-align: center;
+        }
+        &-text {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    &__block {
+        margin: 77px auto 0 auto;
+        position: relative;
+        max-width: 645px;
+        padding: 20px 38px 24px 39px;
+        background: #9D1FFE;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        img {
+            position: absolute;
+            left: -26px;
+            top: 22px;
+        }
+    }
+}

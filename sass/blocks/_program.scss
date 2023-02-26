@@ -1,0 +1,123 @@
+.program {
+    padding: 86px 0 132px 0;
+    background: url('../img/6-program/bg.jpg') center center / cover no-repeat;
+    position: relative;
+    &__title {
+        text-align: center;
+        span {
+            background: #FAB319;
+        }
+    }
+    &__heart-bg {
+        position: absolute;
+        top: -43px;
+        right: calc(50% + 341px);
+    }
+    &__subtitle {
+        max-width: 649px;
+        margin: 41px auto 0 auto;
+        text-align: center;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+    }
+    &__descr {
+        margin: 38px auto 0 auto;
+        max-width: 779px;
+        text-align: center;
+        font-size: 18px;
+        span {
+            color: #9D1FFE;
+        }
+    }
+    &__wrapper {
+        margin-top: 24px;
+        border: 3px solid #9D1FFE;
+        border-radius: 20px;
+        padding: 40px 32px;
+    }
+    &__item {
+        display: flex;
+        column-gap: 21px;
+        align-items: start;
+    }
+    &__text {
+        max-width: 522px;
+        &-title {
+            font-family: 'Averta Demo PE';
+            font-size: 24px;
+        }
+        &-descr {
+            margin-top: 12px;
+            font-size: 18px;
+        }
+    }
+    &__images {
+        margin-top: 44px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        img {
+            border-radius: 25px;
+        }
+    }
+    .splide__arrow {
+        opacity: 1;
+        img {
+            transition: 0.3s all;
+        }
+        &:hover {
+            opacity: 1;
+            img {
+                transform: scale(1.2);
+            }
+        }
+        transition: 0.3s all;
+    }
+    .splide__arrow--prev {
+        top: initial;
+        right: initial;
+        bottom: -73px;
+        left: 13px;
+    }
+    .splide__arrow--next {
+        bottom: initial;
+        left: initial;
+        top: -43px;
+        right: 13px;
+    }
+    .splide__arrows {
+        .splide__arrow_disabled {
+            display: none;
+        }
+    }
+    .splide__arrow:disabled {
+        .splide__arrow_disabled {
+            display: initial;
+        }
+        .splide__arrow_active {
+            display: none;
+        }
+    }
+    .block-button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 769px;
+        bottom: -72px;
+        padding: 36px 34px 40px 47px;
+        z-index: 1;
+        span {
+            max-width: 388px;
+        }
+        .button {
+            width: 310px;
+            height: 70px;
+            font-size: 24px;
+        }
+        &:after {
+            border: 2.5px solid #FAB319;
+            border-top: none;
+        }
+    }
+}

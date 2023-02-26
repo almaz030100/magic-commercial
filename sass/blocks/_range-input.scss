@@ -1,0 +1,127 @@
+/*generated with Input range slider CSS style generator (version 20211225)
+https://toughengineer.github.io/demo/slider-styler*/
+input[type=range].styled-slider {
+  height: 6px;
+  -webkit-appearance: none;
+}
+
+/*progress support*/
+input[type=range].styled-slider.slider-progress {
+  --range: calc(var(--max) - var(--min));
+  --ratio: calc((var(--value) - var(--min)) / var(--range));
+  --sx: calc(0.5 * 15px + var(--ratio) * (100% - 15px));
+}
+
+input[type=range].styled-slider:focus {
+  outline: none;
+}
+
+/*webkit*/
+input[type=range].styled-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0 0 5px #000000;
+  margin-top: calc(6px * 0.5 - 15px * 0.5);
+}
+
+input[type=range].styled-slider::-webkit-slider-runnable-track {
+  height: 6px;
+  border: none;
+  border-radius: 0;
+  background: #D194FF;
+  box-shadow: none;
+}
+
+input[type=range].styled-slider::-webkit-slider-thumb:hover {
+  background: #E8E8E8;
+}
+
+input[type=range].styled-slider::-webkit-slider-thumb:active {
+  background: #C1C1C1;
+}
+
+input[type=range].styled-slider.slider-progress::-webkit-slider-runnable-track {
+  background: linear-gradient(#FAB319,#FAB319) 0/var(--sx) 100% no-repeat, #D194FF;
+}
+
+/*mozilla*/
+input[type=range].styled-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0 0 5px #000000;
+}
+
+input[type=range].styled-slider::-moz-range-track {
+  height: 6px;
+  border: none;
+  border-radius: 0;
+  background: #D194FF;
+  box-shadow: none;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:hover {
+  background: #E8E8E8;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:active {
+  background: #C1C1C1;
+}
+
+input[type=range].styled-slider.slider-progress::-moz-range-track {
+  background: linear-gradient(#FAB319,#FAB319) 0/var(--sx) 100% no-repeat, #D194FF;
+}
+
+/*ms*/
+input[type=range].styled-slider::-ms-fill-upper {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-fill-lower {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0 0 5px #000000;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-track {
+  height: 6px;
+  border-radius: 0;
+  background: #D194FF;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-thumb:hover {
+  background: #E8E8E8;
+}
+
+input[type=range].styled-slider::-ms-thumb:active {
+  background: #C1C1C1;
+}
+
+input[type=range].styled-slider.slider-progress::-ms-fill-lower {
+  height: 6px;
+  border-radius: 0;
+  margin: -undefined 0 -undefined -undefined;
+  background: #FAB319;
+  border: none;
+  border-right-width: 0;
+}

@@ -1,0 +1,253 @@
+.profit {
+    padding: 86px 0 103px 0;
+    background: url('../img/10-profit/bg.jpg') center center / cover no-repeat;
+    position: relative;
+    &__bg-upper {
+        position: absolute;
+        right: calc(50% + 442px);
+        top: -212px;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        max-width: 530px;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+    }
+    &__wrapper {
+        margin-top: 35px;
+        display: flex;
+        gap: 30px;
+        position: relative;
+    }
+    &__structure {
+        max-width: 550px;
+        background: #FFFFFF;
+        border: 3px solid #9D1FFE;
+        border-radius: 20px;
+        padding: 31px 46px 35px 46px;
+        &-title {
+            font-family: 'Averta Demo PE';
+            font-size: 26px;
+            text-align: center;
+        }
+        &-table {
+            margin-top: 24px;
+            font-size: 18px;
+            border-collapse: collapse;
+            tr {
+                &:first-child {
+                    color: #9D1FFE;
+                    td {
+                        border-top: none;
+                    }
+                }
+                &:last-child {
+                    td {
+                        border-bottom: none;
+                    }
+                }
+            }
+            td {
+                border: 2px solid #E1E1E1;
+                padding: 11px 12px;
+                text-align: right;
+                &:nth-child(1) {
+                    border-left: none;
+                }
+                &:nth-child(3) {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    &__diagram {
+        padding: 25px 83px 25px 83px;
+        display: flex;
+        column-gap: 75px;
+        align-items: center;
+        position: relative;
+        background: #fff;
+        border-radius: 20px;
+        // &:before {
+        //     content: '';
+        //     display: block;
+        //     background: #fff;
+        //     position: absolute;
+        //     height: 100%;
+        //     width: 10000px;
+        //     right: -9999px;
+        //     top: 0;
+        // }
+        &-left {
+            span {
+                display: block;
+                margin-bottom: 21px;
+                text-align: center;
+                font-family: 'Averta Demo PE';
+                font-style: italic;
+                font-weight: 800;
+                font-size: 26px;
+                line-height: 1.23;
+                color: #213263;
+            }
+        }
+        &-main {
+            width: 246px;
+            height: 246px;
+            position: relative;
+            img {
+                position: absolute;
+                max-width: 146%;
+                top: 52%;
+                left: 53%;
+                transform: translate(-50%, -50%);
+                pointer-events: none;
+            }
+        }
+        &-right {
+            &-title {
+                margin-bottom: 5px;
+                margin-left: 82px;
+                display: flex;
+                justify-content: space-between;
+                column-gap: 100px;
+                font-family: 'Averta Demo PE Cutted Demo';
+                font-size: 18px;
+                line-height: 1.22;
+                color: #9D1FFE;
+                span {
+                    &:nth-child(2) {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        &-items {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+        &-item {
+            display: flex;
+            gap: 21px;
+            align-items: center;
+            & > span {
+                font-size: 18px;
+                width: 100%;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    background: #E1E1E1;
+                    margin-top: 3px;
+                }
+                & > span {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            strong {
+                font-family: 'Averta Demo PE';
+                font-size: 24px;
+                color: #9D1FFE;
+            }
+        }
+    }
+    .calc {
+        margin-top: 30px;
+        background: #9D1FFE;
+        border-radius: 0px 20px 20px 0px;
+        max-width: 680px;
+        padding: 39px 55px 45px 2px;
+        position: relative;
+        color: #fff;
+        &:before {
+            content: '';
+            display: block;
+            background: #9D1FFE;
+            position: absolute;
+            height: 100%;
+            width: 10000px;
+            left: -9998px;
+            top: 0;
+        }
+        &__title {
+            font-family: 'Averta Demo PE';
+            font-size: 26px;
+            text-align: center;
+        }
+        .calc__value-name {
+            margin-top: 51px;
+            font-family: 'Averta Demo PE';
+            font-size: 23px;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                font-family: 'Gotham Pro';
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1;
+                color: #FAB319;
+            }
+        }
+        input {
+            margin-top: 17px;
+            width: 100%;
+        }
+        .calc__value-ranges {
+            margin-top: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 18px;
+        }
+        &__sum {
+            margin-top: 41px;
+            font-family: 'Averta Demo PE';
+            font-size: 18px;
+            font-weight: 800;
+            color: #FAB319;
+            display: flex;
+            gap: 13px;
+            align-items: center;
+            justify-content: end;
+            span {
+                font-size: 38px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .block-button {
+        max-width: 568px;
+        padding: 41px 30px 40px 43px;
+        z-index: 1;
+        span {
+            font-size: 22px;
+            max-width: 224px;
+        }
+        button {
+            max-width: 260px;
+            font-size: 24px;
+        }
+        &:after {
+            border: 2.5px solid #9D1FFE;
+            border-top: none;
+            border-left: none;
+            width: calc(100% + 15px);
+            left: 6px;
+        }
+        position: absolute;
+        bottom: 103px;
+        left: calc(50% + 64px);
+    }
+    &__bg-mom {
+        position: absolute;
+        bottom: 124px;
+        left: calc(50% + 41px);
+    }
+}

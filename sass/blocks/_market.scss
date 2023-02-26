@@ -1,0 +1,106 @@
+.market {
+    background: url('../img/5-market/bg.jpg') center center / cover no-repeat;
+    padding: 115px 0 119px 0;
+    position: relative;
+    &__title {
+        max-width: 579px;
+        span {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+    &__upper-left {
+        position: absolute;
+        left: 0px;
+        top: -129px;
+    }
+    &__heart-bg {
+        position: absolute;
+        left: calc(50% + 400px);
+        top: -41px;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        max-width: 649px;
+        font-family: 'Averta Demo PE';
+        font-size: 20px;
+    }
+    &__advantages {
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        &-item {
+            max-width: 410px;
+            height: 374px;
+            background: #FFFFFF;
+            border-radius: 25px;
+            overflow: hidden;
+            position: relative;
+            img {
+                width: 100%;
+                height: 209px;
+            }
+            &_big {
+                height: 430px;
+            }
+        }
+        &-number {
+            position: absolute;
+            width: 60px;
+            height: 58px;
+            background: #FAB319;
+            transform: rotate(-5.79deg);
+            left: 19px;
+            top: 174px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                font-family: 'Comicsman One';
+                font-size: 25px;
+                transform: rotate(5.79deg);
+                color: #fff;
+            }
+            &_purple {
+                background: #9D1FFE;
+            }
+        }
+        &-text {
+            margin: 38px 35px 0 35px;
+            text-align: center;
+            font-size: 18px;
+            span {
+                color: #9D1FFE;
+            }
+        }
+    }
+    &__descr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 41px;
+        &_left {
+            max-width: 816px;
+            padding: 28px 36px 25px 239px;
+            background: #FAB319;
+            border-radius: 20px;
+            font-size: 18px;
+            span {
+                color: #9D1FFE;
+            }
+        }
+        &_right {
+            max-width: 371px;
+            text-align: center;
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+    &__boy {
+        position: absolute;
+        bottom: 0px;
+        right: calc(50% + 338px);
+    }
+}

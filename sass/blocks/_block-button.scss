@@ -1,0 +1,30 @@
+.block-button {
+    max-width: 892px;
+    padding: 35px 64px 41px 53px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    span {
+        font-size: 24px;
+        max-width: 315px;
+    }
+    .button {
+        width: 355px;
+        height: 75px;
+    }
+    &:after {
+        content: '';
+        display: block;
+        width: calc(100% + 30px);
+        height: 100%;
+        border: 2.5px solid #fff;
+        border-radius: inherit;
+        position: absolute;
+        left: -15px;
+        bottom: -17px;
+        pointer-events: none;
+    }
+}

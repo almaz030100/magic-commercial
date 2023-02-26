@@ -1,0 +1,570 @@
+@media (max-width: 767px) {
+    
+    .header {
+        .call__phone {
+            display: none;
+        }
+        .call__order-number {
+            font-size: 18px;
+        }
+        .call__order {
+            text-align: right;
+        }
+        .call__order-link {
+            font-size: 16px;
+        }
+    }
+    .header__logo {
+        img {
+            width: 141px;
+        }
+    }
+    .promo {
+        padding: 25px 0;
+    }
+    .promo__title {
+        font-size: 22px;
+    }
+    .promo__title span {
+        display: block;
+    }
+    .promo__subtitle {
+        font-size: 18px;
+    }
+    .promo .block-button {
+        position: relative;
+        margin: 45px auto 0 auto;
+        left: initial;
+        bottom: initial;
+    }
+    .promo__advantages-item {
+        img {
+            width: 50px;
+        }
+        flex-direction: column;
+        gap: 10px;
+        span {
+            text-align: center;
+            font-size: 15px;
+            width: 100% !important;
+        }
+    }
+    .block-button {
+        padding: 20px 20px !important;
+        max-width: 300px !important;
+        flex-direction: column;
+        gap: 20px;
+        span {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .button {
+        font-size: 18px !important;
+    }
+    .info {
+        padding: 25px 0 190px 0;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .info__title {
+        span {
+            background: none;
+        }
+        background: #fff;
+        border-radius: 20px;
+    }
+    .subtitle {
+        font-size: 17px;
+    }
+    .info__boy {
+        left: calc(50% - 121px);
+        width: 300px;
+        bottom: -60px;
+    }
+    .founder__upper-left-bg {
+        width: 130px;
+        left: -22px;
+        top: -135px;
+    }
+    .founder {
+        padding: 25px 0;
+    }
+    .founder__years {
+        margin-left: 0;
+    }
+    .founder__years-item {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .founder__years-text {
+        text-align: center;
+    }
+    .founder__years-text_flex {
+        align-items: center;
+    }
+    .founder__years-text img {
+        margin-left: 0;
+    }
+    .founder__interview:before, .founder__interview:after {
+        background-size: 35px 22px;
+        width: 35px;
+        height: 22px;
+    }
+    .founder__interview:before {
+        content: '';
+        display: block;
+        background-image: url('../img/4-founder/left-mark.svg');
+    }
+    .founder__interview:after {
+        content: '';
+        display: block;
+        background-image: url('../img/4-founder/right-mark.svg');
+    }
+    .founder__interview img {
+        width: 100%;
+    }
+    .founder__interview {
+        padding: 15px 15px 0 15px;
+    }
+    .founder__interview p {
+        font-size: 15px;
+    }
+    .market__upper-left {
+        width: 200px;
+        top: -54px;
+    }
+    .founder__join .block-button .button {
+        padding: 0px 39px;
+        width: 100%;
+    }
+    .market {
+        padding: 25px 0;
+    }
+    .market__advantages-item img {
+        height: 150px;
+    }
+    .market__advantages-number {
+        top: 116px;
+    }
+    .market__advantages-item {
+        height: initial;
+        padding-bottom: 20px;
+    }
+    .market__advantages-text {
+        margin: 35px 20px 0 20px;
+        font-size: 16px;
+    }
+    .market__descr_left {
+        font-size: 16px;
+    }
+    .market__descr_right  {
+        font-size: 16px;
+    }
+    .program__heart-bg {
+        width: 50px;
+        right: calc(50% + 108px);
+        top: -35px;
+    }
+    .program {
+        padding: 25px 0;
+    }
+    .program__descr {
+        font-size: 16px;
+    }
+    .program__wrapper {
+        padding: 30px 15px;
+        .splide__pagination {
+            bottom: -65px;
+        }
+    }
+    .program__item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        justify-content: center;
+    }
+    .program__text-title {
+        font-size: 20px;
+    }
+    .program__text-descr {
+        font-size: 16px;
+    }
+    .program__images img {
+        width: 100%;
+    }
+    .program .block-button {
+        position: relative;
+        margin-top: 30px;
+        left: initial;
+        bottom: initial;
+        .button {
+            width: 100%;
+        }
+    }
+    .why__upper-left {
+        width: 60px;
+        top: -37px;
+    }
+    .why {
+        padding: 25px 0 209px 0;
+    }
+    .why__title span {
+        display: block;
+    }
+    .why__slider .splide__slide::before {
+        content: '';
+        display: block;
+        background-image: url('../img/4-founder/left-mark.svg');
+        left: 2px;
+        top: 2px;
+    }
+    .why__slider .splide__slide::after {
+        content: '';
+        display: block;
+        background-image: url('../img/4-founder/right-mark.svg');
+        right: 2px;
+        bottom: 4px;
+    }
+    .why__slider .splide__slide::before, .why__slider .splide__slide::after {
+        background-size: 35px 22px;
+        width: 35px;
+        height: 22px;
+    }
+    .why__slider .splide__slide {
+        padding: 25px 15px;
+    }
+    .why__slider .splide__slide .text {
+        font-size: 15px;
+    }
+    .why__slider .splide__slide .name span {
+        font-size: 17px;
+    }
+    .why__slider .splide__slide .name {
+        justify-content: center;
+    }
+    .why .splide__pagination {
+        bottom: -27px;
+        .splide__pagination__page {
+            background: #fff;
+        }
+        .splide__pagination__page.is-active {
+            background: #9d1ffe;
+        }
+    }
+    .why__block {
+        padding: 20px 15px;
+        text-align: center;
+        font-size: 15px;
+        img {
+            width: 60px;
+            right: 53px;
+            top: 214px;
+        }
+    }
+    .why__girl {
+        right: calc(50% - 37px);
+        width: 250px;
+    }
+    .partner {
+        padding: 25px 0;
+    }
+    .partner__title {
+        max-width: 238px;
+        span {
+            display: block;
+        }
+    }
+    .partner__wrapper {
+        margin-top: 40px;
+    }
+    .partner__item {
+        padding: 25px 15px;
+    }
+    .partner__item-ul .partner__item-title {
+        font-size: 20px;
+    }
+    .partner__item-ul ul {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .partner .block-button {
+        position: relative;
+        margin-top: 30px;
+        left: initial;
+        bottom: initial;
+    }
+    .partner__item3 .partner__item-table {
+        font-size: 15px;
+    }
+    .partner .block-button span {
+        font-size: 16px;
+    }
+    .partner__item3 {
+        background: #f3e3ff;
+    }
+    .center {
+        padding: 25px 0;
+    }
+    .center__title span {
+        display: block;
+        margin: 0;
+    }
+    .center__column-title span {
+        font-size: 18px;
+    }
+    .center__column ul li {
+        font-size: 15px;
+    }
+    .center__column ul {
+        margin-top: 25px;
+        gap: 15px;
+    }
+    .center__column ul::after {
+        top: -50px;
+        height: calc(100% + 8px);
+    }
+    .center__column_purple ul::after {
+        height: calc(100% + -11px);
+    }
+    .center__block {
+        font-size: 15px;
+    }
+    .profit {
+        padding: 25px 0;
+    }
+    .profit__structure {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .profit__structure-title {
+        font-size: 20px;
+    }
+    .profit__structure-table {
+        font-size: 15px;
+    }
+    .profit__structure-table td {
+        padding: 10px 5px;
+    }
+    .profit__diagram-main {
+        display: none;
+    }
+    .profit__diagram {
+        padding: 25px 15px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profit__diagram-right-title {
+        column-gap: 20px;
+    }
+    .profit__diagram-item strong {
+        font-size: 20px;
+    }
+    .profit__diagram-item span {
+        font-size: 15px;
+    }
+    .profit .calc {
+        padding: 25px 15px;
+    }
+    .profit .calc__title {
+        font-size: 20px;
+    }
+    .profit .calc .calc__value-name {
+        margin-top: 30px;
+        font-size: 18px;
+        column-gap: 40px;
+    }
+    .profit .calc .calc__value-ranges {
+        font-size: 14px;
+    }
+    .profit .calc__sum {
+        margin-top: 30px;
+        font-size: 15px;
+        justify-content: space-between;
+        span {
+            font-size: 25px;
+        }
+    }
+    .profit .block-button span {
+        font-size: 18px;
+    }
+    .profit__bg-mom {
+        left: calc(50% - 152px);
+        width: 320px;
+    }
+    .profit .block-button {
+        margin: 292px auto 0 auto;
+    }
+    .business {
+        padding: 25px 0;
+    }
+    .business__title span {
+        display: block;
+        margin: 0;
+    }
+    .business__item {
+        width: 300px;
+        gap: 15px;
+        img {
+            width: 250px;
+        }
+    }
+    .business__item-title {
+        font-size: 20px;
+    }
+    .business__item-text {
+        font-size: 15px;
+    }
+    .business__block {
+        margin-top: 40px;
+        padding: 20px 10px 20px 10px;
+        font-size: 15px;
+    }
+    .business__block img {
+        width: 60px;
+        left: -7px;
+        top: -31px;
+    }
+    .model__stars-bg {
+        width: 200px;
+        right: -117px;
+        top: -110px;
+    }
+    .model {
+        padding: 25px 0;
+        background: url("../img/12-model/bg.jpg") center right -1000px/auto 100% no-repeat,#f4f4f3;
+    }
+    .model__title {
+        font-size: 18px;
+        br {
+            display: none;
+        }
+        span {
+            display: block;
+        }
+    }
+    .model__descr {
+        font-size: 15px;
+    }
+    .model ul {
+        font-size: 15px;
+    }
+    .model .block-button {
+        position: relative;
+        margin-top: 30px;
+        left: initial;
+        bottom: initial;
+        height: initial;
+        right: initial;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+    .modal {
+        width: 300px;
+        background: #fff !important;
+        padding: 25px 15px;
+        height: auto;
+        .form {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form__title {
+            text-align: center;
+            font-size: 17px;
+            max-width: 100%;
+        }
+        .form__main {
+            max-width: 100%;
+            margin-top: 0;
+            input {
+                width: 100%;
+            }
+            .button {
+                width: 100%;
+            }
+        }
+        .form__inputs {
+            width: 100%;
+        }
+
+    }
+
+    .header_thanks .call__order-link {
+        font-size: 11px;
+    }
+    .thanks {
+        padding: 25px 0 418px 0;
+    }
+    .thanks__title {
+        font-size: 28px;
+    }
+    .thanks__subtitle {
+        font-size: 15px;
+    }
+    .thanks__schedule-left {
+        max-width: 300px;
+        padding: 15px 10px 15px 10px;
+    }
+    .thanks__schedule-title {
+        font-size: 15px;
+    }
+    .thanks__schedule-days {
+        font-size: 15px;
+        gap: 10px;
+    }
+    .thanks__schedule-table {
+        font-size: 14px;
+        grid-template-columns: 189px 1fr;
+    }
+    .thanks__schedule-cell:nth-child(2) {
+        padding: 0 16px;
+    }
+    .thanks__schedule-cell:nth-child(4) {
+        padding: 0 16px;
+    }
+    .thanks__team {
+        font-size: 16px;
+        span {
+            max-width: 227px;
+        }
+    }
+    .thanks__links {
+        font-size: 15px;
+    }
+    .thanks__links .thanks__links-title {
+        font-size: 18px;
+    }
+    .thanks__links-col2 .thanks__links-site {
+        font-size: 16px;
+        img {
+            max-width: 126px;
+        }
+    }
+    .thanks__back {
+        font-size: 16px;
+    }
+    .thanks__founder-name {
+        max-width: 300px;
+        font-size: 18px;
+        bottom: -55px;
+        span {
+            font-size: 18px;
+        }
+    }
+    .thanks__founder {
+        img {
+            width: 250px;
+        }
+    }
+    .thanks__founder {
+        bottom: 75px;
+    }
+    
+
+
+
+}
